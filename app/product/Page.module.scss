@@ -1,0 +1,31 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 30px;
+    width: 100%;
+
+
+    .card {
+        max-width: 500px;
+        width: 100%;
+        border-radius: 30px;
+        background-color: #e4dede;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .imageWrap {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+
+            img {
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                border-radius: 6px;
+            }
+        }
+    }
+}

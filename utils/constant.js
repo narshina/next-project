@@ -1,0 +1,27 @@
+export const products=[
+    {
+        pid:1,
+        pName:"apple",
+        price:400
+    },
+    {
+        pid:2,
+        pName:"banana",
+        price:400
+    },
+    {
+        pid:3,
+        pName:"cherry",
+        price:400
+    },
+    {
+        pid:4,
+        pName:"carrot",
+        price:400
+    },
+    {
+        pid:5,
+        pName:"mango",
+        price:400
+    }
+]
